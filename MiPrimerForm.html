@@ -1,0 +1,86 @@
+<html>
+<head>
+    <style> 
+        body { 
+            background-image: url("https://i.pinimg.com/originals/83/ff/aa/83ffaa1973e7b177b24af4ec383735bd.gif");
+            background-position: center 100%; 
+                background-size: cover 25%; 
+
+    }
+    </style>
+</head>
+<body>
+<!-- Formulario basico (Ejemplo sacado de https://www.htmlquick.com/es/tutorials/forms/4.html) -->
+<form action="https://www.htmlquick.com/es/form-result.php" target="_blank">
+<form action="ejer.asp">
+    <h3>
+    <p>Tu nombre y apellidos: <input type="text" name="nombre"> </type></p>
+    <select id="sexo">
+        <!--Etiqueta option-->
+        <option value="value0"></option>
+        <option value="value1">Hombre</option> 
+        <option value="value2">Mujer</option>
+        <option value="value3">No asumas mi genero, machirulo de mierda </option>
+    </select><br><br>
+    E-mail: <input type="email" name="correo"><br><br>
+    Fecha de nacimiento : <input type="date" name="fecnac"><br><br>
+    <label>Edad: </label>
+        <input type="checkbox" value="20-39"> 20-39
+        <input type="checkbox" value="40-59"> 40-59
+        <input type="checkbox" value="60-79"> 60-79<br>
+
+        <p>Tu mensaje:<br>
+        <textarea name="mensaje"></textarea> <br>
+        </br>
+    
+        <label for="estudios">Estudios: </label>
+            <select id="estudios">
+                   <option>Prefiero no contestar</option>
+               <optgroup label="Sin Estudios">
+                    <option>Sin Estudios</option>
+               <optgroup label="Estudios Universitarios"><br>
+                  <option>Doctorado</option>
+                  <option>Master</option>
+                  <option>Grado</option>
+               </optgroup>
+               <optgroup label="Ciclo Formativo">
+                  <option>Grado Superior</option>
+                  <option>Grado Medio</option>
+                  </optgroup>
+                <optgroup label="Educacion Secundaria Obligatoria">
+                <optgroup label="Educacion Primaria">
+                </optgroup>
+            </select><br><br>
+
+    </p>
+    Elige el mes de la realizacion de este formulario: <input type="month" name="mes"><br><br>
+    Elige color: <input type="color" name="micolor"><br><br>
+    En caso de tener alguna red social (Una por favor): <input type="url" name="misitio"><br>
+    Teclea cantidad (entre 1 y 50): <input type="number" name="cantidad" min="1" max="20"><br><br>
+    <label for="navegador">Elige tu navegador favorito: </label><br>
+    <input id="navegador" list="browsers">
+      <datalist id="browsers">
+          <option value="Chrome">
+          <option value="Firefox">
+          <option value="Internet Explorer">
+          <option value="Opera">
+          <option value="Safari">
+          <option value="Microsoft Edge">
+      </datalist><br><br>
+      <label for="mensaje">Por que te gusta el navegador que has seleccionado: </label><br><br>
+      <textarea rows="10" cols="50" placeholder="Mensaje" id="mensaje"></textarea><br>
+      <p>Quieres que te mandemos informacion por email? <br>
+      <select name="envioEmail">
+        <option value="si">Si
+        <option value="no">No
+    </select>
+    </p>
+
+    <input type="submit" value="Enviar mensaje">
+    </h3>
+</form>
+<img style = "width: 20%; height: 50%; float: left; margin: 2px 20px 10px 0; ; " src="https://i.pinimg.com/564x/fc/2f/08/fc2f0893cea6aa356ebfa9c4d1ca7c2a.jpg"  alt="tio levantando los dedos"/><br><p></p>
+
+</body>
+
+</html>
